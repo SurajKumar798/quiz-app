@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <section class="main">
+        <div class="header">
+            <div class="logo">
+                <img src="./images/science (5).jpg" alt="logo" />
+                <p class="logo-para">LOGO</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="tag-line">Let's start Quiz!</div>
+            <div class="main-content-item">
+                <div class="random-btn">
+                    <button class="button">
+                        Random Quiz
+                        <span>></span>
+                    </button>
+                </div>
+                <img src="./images/small2.jpg" alt="screen-img" id="small-screen-img" />
+            </div>
+            
+            <div class="carousal">
+                <p class="craousal-para">PLAY, LEARN AND ENJOY!</p>
+                <div class="main-carousal">
+                    <div class="card">
+                        <img src="./images/history.jpg" alt="history" />
+                        <button class="card-btn" data-section="0">Indian History</button>
+            
+                    </div>
+                    <div class="card">
+                        <img src="./images/gk.jpg" alt="gk" />
+                        <button class="card-btn" data-section="1">General Knowledge</button>
+            
+                    </div>
+                    <div class="card">
+                        <img src="./images/science (1).jpg" alt="science" />
+                        <button class="card-btn" data-section="2">Science</button>
+            
+                    </div>
+                    <div class="card">
+                        <img src="./images/maths.jpg" alt="math" />
+                        <button class="card-btn" data-section="3">Mathematics</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <div id="question-container" style="display: none;">
+        <p id="score">Score: 0</p>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="next-button">Next</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
